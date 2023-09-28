@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web với 2 Nút</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2; /* Màu xám nhạt */
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #007bff; /* Màu xanh dương */
+    color: #fff; /* Màu chữ trắng */
+    font-family: Arial, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button id="button1" onclick="redirectToLink('http://surl.li/loxcr')">Gacha</button>
+        <button id="button2" onclick="redirectToLink('http://surl.li/loxcf')">Chaga</button>
+    </div>
+
+    <script>
+        function redirectToLink(link) {
+            window.location.href = link;
+        }
+    </script>
+</body>
+</html>
